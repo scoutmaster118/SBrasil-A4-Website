@@ -15,15 +15,6 @@ namespace AS1
     {
 
         /// <summary>
-        /// btnTexSubmit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnTexSubmit;
-
-        /// <summary>
         /// btnGreen control.
         /// </summary>
         /// <remarks>
@@ -51,13 +42,13 @@ namespace AS1
         protected global::System.Web.UI.WebControls.Button btnBold;
 
         /// <summary>
-        /// btnItal control.
+        /// btnIni control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnItal;
+        protected global::System.Web.UI.WebControls.Button btnIni;
 
         /// <summary>
         /// btnB2D control.
@@ -85,6 +76,15 @@ namespace AS1
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtInput;
+
+        /// <summary>
+        /// btnSubmit control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
 
         /// <summary>
         /// txtOutput control.
