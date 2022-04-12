@@ -23,6 +23,16 @@ namespace AS2.Test
             result = Convert.ToString(num) + result;
             Assert.Equal(expectedresult, result);
         }
-        
+        [Theory]
+        [InlineData("1001101", 77)]
+        public void Test2(string x, int expectedresult)
+        {
+            int result;
+            string num = x;
+            result = 0;
+            result = Convert.ToInt32(num,2);
+            Assert.Equal(expectedresult, result);
+        }
+
     }
 }
